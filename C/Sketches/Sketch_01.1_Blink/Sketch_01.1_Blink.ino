@@ -1,13 +1,14 @@
 /**********************************************************************
 * Filename    : Blink
-* Description : Make an led blinking.
+* Description : Make the LED marked with "IO2" led blink.
 * Auther      : www.freenove.com
-* Modification: 2022/10/19
+* Modification: 2022/12/06
 **********************************************************************/
-#define LED_BUILTIN  32
-// the setup function runs once when you press reset or power the board
+#define LED_BUILTIN  2
+
+// the setup function runs once when you press reset button or power up the board
 void setup() {
-  // initialize digital pin LED_BUILTIN as an output.
+  // initialize digital pin LED_BUILTIN as an output pin.
   pinMode(LED_BUILTIN, OUTPUT);
 }
 
