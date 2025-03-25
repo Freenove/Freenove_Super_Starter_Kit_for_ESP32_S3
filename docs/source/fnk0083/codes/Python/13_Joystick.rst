@@ -74,11 +74,11 @@ Code
 
 In this project's code, we will read the ADC values of X and Y axes of the Joystick, and read digital quality of the Z axis, then display these out in Terminal.
 
-Move the program folder “Freenove_Ultimate_Starter_Kit_for_ESP32_S3/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
+Move the program folder “Freenove_Super_Starter_Kit_for_ESP32_S3/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
 
 Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “Joystick” and double click “Joystick.py”. 
 
-13.1_Joystick
+12.1_Joystick
 -----------------------------
 
 .. image:: ../_static/imgs/14_Joystick/Chapter14_07.png
@@ -91,7 +91,7 @@ Click “Run current script”. Shifting the Joystick or pressing it down will m
 
 The flowing is the code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/13.1_Joystick/Joystick.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/12.1_Joystick/Joystick.py
     :linenos: 
     :language: python
     :lines: 1-15
@@ -99,7 +99,7 @@ The flowing is the code:
 
 Set the acquisition range of voltage of the two ADC channels to 0-3.3V, and the acquisition width of data to 0-4095.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/13.1_Joystick/Joystick.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/12.1_Joystick/Joystick.py
     :linenos: 
     :language: python
     :lines: 8-11
@@ -107,7 +107,7 @@ Set the acquisition range of voltage of the two ADC channels to 0-3.3V, and the 
 
 In the code, configure Z_Pin to pull-up input mode. In loop(), use Read () to read the value of axes X and Y and use value() to read the value of axis Z, and then display them.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/13.1_Joystick/Joystick.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/12.1_Joystick/Joystick.py
     :linenos: 
     :language: python
     :lines: 14-14

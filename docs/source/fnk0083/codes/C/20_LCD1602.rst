@@ -109,7 +109,7 @@ We use the third party library LiquidCrystal I2C. If you haven't installed it ye
 
 open arduino -> Sketch -> Include library -> Add .zip Library.... 
 
-Select " **Freenove_Ultimate_Starter_Kit_for_ESP32_S3\\C\\Libraries\\LiquidCrystal_I2C.zip** " for installation.
+Select " **Freenove_Super_Starter_Kit_for_ESP32_S3\\C\\Libraries\\LiquidCrystal_I2C.zip** " for installation.
 
 .. image:: ../_static/imgs/20_LCD1602/Chapter20_08.png
     :align: center

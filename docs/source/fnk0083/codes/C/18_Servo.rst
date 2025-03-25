@@ -98,14 +98,14 @@ Compile and upload the code to ESP32-S3 WROOM, the servo will rotate from 0 degr
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Servo_Sweep/Sketch_18.1_Servo_Sweep.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.1_Servo_Sweep/Sketch_16.1_Servo_Sweep.ino
     :linenos: 
     :language: c
     :dedent:
 
 Define the pins controlling Servo and the frequency and duty cycle of the signal.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Servo_Sweep/Sketch_18.1_Servo_Sweep.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.1_Servo_Sweep/Sketch_16.1_Servo_Sweep.ino
     :linenos: 
     :language: c
     :lines: 7-10
@@ -113,7 +113,7 @@ Define the pins controlling Servo and the frequency and duty cycle of the signal
 
 Initialize Servo pin. Here, PWM control mode is used to control Servo motor.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Servo_Sweep/Sketch_18.1_Servo_Sweep.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.1_Servo_Sweep/Sketch_16.1_Servo_Sweep.ino
     :linenos: 
     :language: c
     :lines: 30-32
@@ -121,7 +121,7 @@ Initialize Servo pin. Here, PWM control mode is used to control Servo motor.
 
 Write a function to control the rotation angle of Servo. The angle range is 0-180 degrees.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Servo_Sweep/Sketch_18.1_Servo_Sweep.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.1_Servo_Sweep/Sketch_16.1_Servo_Sweep.ino
     :linenos: 
     :language: c
     :lines: 34-39
@@ -129,7 +129,7 @@ Write a function to control the rotation angle of Servo. The angle range is 0-18
 
 Control the steering gear to rotate from 0 ° to 180 °, and then rotate from 180 ° to 0 °, and keep rotating circularly.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Servo_Sweep/Sketch_18.1_Servo_Sweep.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.1_Servo_Sweep/Sketch_16.1_Servo_Sweep.ino
     :linenos: 
     :language: c
     :lines: 20-27

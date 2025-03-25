@@ -120,14 +120,14 @@ Download the code to ESP32-S3 WROOM, open the serial port monitor, set the baud 
   
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_21.1_Ultrasonic_Ranging/Sketch_21.1_Ultrasonic_Ranging.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Ultrasonic_Ranging/Sketch_18.1_Ultrasonic_Ranging.ino
     :linenos: 
     :language: c
     :dedent:
 
 First, define the pins and the maximum measurement distance.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_21.1_Ultrasonic_Ranging/Sketch_21.1_Ultrasonic_Ranging.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Ultrasonic_Ranging/Sketch_18.1_Ultrasonic_Ranging.ino
     :linenos: 
     :language: c
     :lines: 7-9
@@ -135,7 +135,7 @@ First, define the pins and the maximum measurement distance.
   
 If the module does not return high level, we cannot wait for this forever, so we need to calculate the time period for the maximum distance, that is, time Out. timeOut= 2*MAX_DISTANCE/100/340*1000000. The result of the constant part in this formula is approximately 58.8.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_21.1_Ultrasonic_Ranging/Sketch_21.1_Ultrasonic_Ranging.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Ultrasonic_Ranging/Sketch_18.1_Ultrasonic_Ranging.ino
     :linenos: 
     :language: c
     :lines: 11-11
@@ -143,7 +143,7 @@ If the module does not return high level, we cannot wait for this forever, so we
   
 Subfunction getSonar () function is used to start the ultrasonic module to begin measuring, and return the measured distance in cm units. In this function, first let trigPin send 10us high level to start the ultrasonic module. Then use pulseIn () to read the ultrasonic module and return the duration time of high level. Finally, the measured distance according to the time is calculated.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_21.1_Ultrasonic_Ranging/Sketch_21.1_Ultrasonic_Ranging.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Ultrasonic_Ranging/Sketch_18.1_Ultrasonic_Ranging.ino
     :linenos: 
     :language: c
     :lines: 27-39
@@ -151,7 +151,7 @@ Subfunction getSonar () function is used to start the ultrasonic module to begin
   
 Lastly, in loop() function, get the measurement distance and display it continually.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_21.1_Ultrasonic_Ranging/Sketch_21.1_Ultrasonic_Ranging.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Ultrasonic_Ranging/Sketch_18.1_Ultrasonic_Ranging.ino
     :linenos: 
     :language: c
     :lines: 20-25

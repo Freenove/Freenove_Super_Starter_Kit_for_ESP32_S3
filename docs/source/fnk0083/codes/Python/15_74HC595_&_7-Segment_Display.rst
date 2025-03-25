@@ -118,7 +118,7 @@ Code
 
 In this section, the 74HC595 is used in the same way as in the previous section, but with different values transferred. We can learn how to master the digital display by sending the code value of "0" - "F".
 
-Move the program folder “Freenove_Ultimate_Starter_Kit_for_ESP32_S3/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
+Move the program folder “Freenove_Super_Starter_Kit_for_ESP32_S3/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
 
 Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “74HC595_and_7_segment_display”. 
 
@@ -137,7 +137,7 @@ Click “Run current script”, and you'll see a 1-bit, 7-segment display displa
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/15.1_74HC595_and_7_segment_display/74HC595_and_7_segment_display.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/14.1_74HC595_and_7_segment_display/74HC595_and_7_segment_display.py
     :linenos: 
     :language: python
     :lines: 1-14
@@ -145,7 +145,7 @@ The following is the program code:
 
 Import time and my74HC595 modules.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/15.1_74HC595_and_7_segment_display/74HC595_and_7_segment_display.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/14.1_74HC595_and_7_segment_display/74HC595_and_7_segment_display.py
     :linenos: 
     :language: python
     :lines: 1-2
@@ -153,7 +153,7 @@ Import time and my74HC595 modules.
 
 Put the encoding " **0** " - " **F** " into the list.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/15.1_74HC595_and_7_segment_display/74HC595_and_7_segment_display.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/14.1_74HC595_and_7_segment_display/74HC595_and_7_segment_display.py
     :linenos: 
     :language: python
     :lines: 4-5
@@ -161,7 +161,7 @@ Put the encoding " **0** " - " **F** " into the list.
 
 Define an object, whose pins applys default configuration, to drive 74HC595. 
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/15.1_74HC595_and_7_segment_display/74HC595_and_7_segment_display.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/14.1_74HC595_and_7_segment_display/74HC595_and_7_segment_display.py
     :linenos: 
     :language: python
     :lines: 7-7
@@ -169,7 +169,7 @@ Define an object, whose pins applys default configuration, to drive 74HC595.
 
 Send data of digital tube to 74HC595 chip.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/15.1_74HC595_and_7_segment_display/74HC595_and_7_segment_display.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/14.1_74HC595_and_7_segment_display/74HC595_and_7_segment_display.py
     :linenos: 
     :language: python
     :lines: 11-11

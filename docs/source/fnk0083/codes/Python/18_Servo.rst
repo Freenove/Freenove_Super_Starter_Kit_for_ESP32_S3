@@ -85,7 +85,7 @@ Use caution when supplying power to the servo, it should be 5V. Make sure you do
 Code
 ===========================
 
-Move the program folder “Freenove_Ultimate_Starter_Kit_for_ESP32_S3/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
+Move the program folder “Freenove_Super_Starter_Kit_for_ESP32_S3/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
 
 Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “Servo_Sweep”. Select “myservo.py”, right click your mouse to select “Upload to /”, wait for “myservo.py” to be uploaded to ESP32-S3 and then double click “Servo_Sweep.py”. 
 
@@ -102,14 +102,14 @@ Click “Run current script”, the Servo will rotate from 0 degrees to 180 degr
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/18.1_Servo_Sweep/Servo_Sweep.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/16.1_Servo_Sweep/Servo_Sweep.py
     :linenos: 
     :language: python
     :dedent:
 
 Import myservo module.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/18.1_Servo_Sweep/Servo_Sweep.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/16.1_Servo_Sweep/Servo_Sweep.py
     :linenos: 
     :language: python
     :lines: 1-1
@@ -117,7 +117,7 @@ Import myservo module.
 
 Initialize pins of the servo and set the starting point of the servo to 0 degree.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/18.1_Servo_Sweep/Servo_Sweep.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/16.1_Servo_Sweep/Servo_Sweep.py
     :linenos: 
     :language: python
     :lines: 4-6
@@ -125,7 +125,7 @@ Initialize pins of the servo and set the starting point of the servo to 0 degree
 
 Control the servo to rotate to a specified angle within the range of 0-180 degrees.  
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/18.1_Servo_Sweep/Servo_Sweep.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/16.1_Servo_Sweep/Servo_Sweep.py
     :linenos: 
     :language: python
     :lines: 5-5
@@ -133,7 +133,7 @@ Control the servo to rotate to a specified angle within the range of 0-180 degre
 
 Use two for loops. The first one controls the servo to rotate from 0 degree to 180 degrees while the other controls it to rotate back from 180 degrees to 0 degree.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/18.1_Servo_Sweep/Servo_Sweep.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/16.1_Servo_Sweep/Servo_Sweep.py
     :linenos: 
     :language: python
     :lines: 10-15
@@ -208,7 +208,7 @@ Use caution when supplying power to the servo, it should be 5V. Make sure you do
 Code
 =================================
 
-Move the program folder “Freenove_Ultimate_Starter_Kit_for_ESP32_S3/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
+Move the program folder “Freenove_Super_Starter_Kit_for_ESP32_S3/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
 
 Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “Servo_Knop”. Select “myservo.py”, right click your mouse to select “Upload to /”, wait for “myservo.py” to be uploaded to ESP32-S3 and then double click “Servo_Knop.py”. 
  
@@ -225,7 +225,7 @@ Click “Run current script”, twist the potentiometer back and forth, and the 
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/18.2_Servo_Knop/Servo_Knop.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/16.2_Servo_Knop/Servo_Knop.py
     :linenos: 
     :language: python
     :dedent:

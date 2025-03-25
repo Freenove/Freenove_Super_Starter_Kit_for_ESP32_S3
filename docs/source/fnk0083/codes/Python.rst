@@ -36,7 +36,7 @@ Python language
    Python/13_Joystick.rst
    Python/14_74HC595_&_LED_Bar_Graph.rst
    Python/15_74HC595_&_7-Segment_Display.rst
-   Python/17_Relay_&_Motor.rst
+   Python/17_2_Motor_&_Driver.rst
    Python/18_Servo.rst
    Python/20_LCD1602.rst
    Python/21_Ultrasonic_Ranging.rst
@@ -49,7 +49,7 @@ Python language
    :caption: What's next?
    :glob:
 
-   Python/What_s_next.rst
+   What_s_next.rst
 
 .. toctree::
    :maxdepth: 1
