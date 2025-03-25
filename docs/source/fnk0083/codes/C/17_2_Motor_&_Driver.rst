@@ -130,14 +130,14 @@ Download code to ESP32-S3 WROOM, rotate the potentiometer in one direction and t
 
 The following is the sketch:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_17.2_Control_Motor_by_L293D/Sketch_17.2_Control_Motor_by_L293D.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.1_Control_Motor_by_L293D/Sketch_16.1_Control_Motor_by_L293D.ino
     :linenos: 
     :language: c
     :dedent:
 
 The ADC of ESP32-S3 has a 12-bit accuracy, corresponding to a range from 0 to 4095. In this program, set the number 2048 as the midpoint. If the value of ADC is less than 2048, make the motor rotate in one direction. If the value of ADC is greater than 2048, make the motor rotate in the other direction. Subtract 2048 from the ADC value and take the absolute value and use this result as the speed of the motor.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_17.2_Control_Motor_by_L293D/Sketch_17.2_Control_Motor_by_L293D.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.1_Control_Motor_by_L293D/Sketch_16.1_Control_Motor_by_L293D.ino
     :linenos: 
     :language: c
     :lines: 26-39
@@ -145,7 +145,7 @@ The ADC of ESP32-S3 has a 12-bit accuracy, corresponding to a range from 0 to 40
 
 Set the accuracy of the PWM to 11 bits and range from 0 to 2047 to control the rotation speed of the motor.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_17.2_Control_Motor_by_L293D/Sketch_17.2_Control_Motor_by_L293D.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.1_Control_Motor_by_L293D/Sketch_16.1_Control_Motor_by_L293D.ino
     :linenos: 
     :language: c
     :lines: 53-53
@@ -153,7 +153,7 @@ Set the accuracy of the PWM to 11 bits and range from 0 to 2047 to control the r
 
 Function driveMotor is used to control the rotation direction and speed of the motor. The **dir** represents direction while **spd** refers to speed.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_17.2_Control_Motor_by_L293D/Sketch_17.2_Control_Motor_by_L293D.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.1_Control_Motor_by_L293D/Sketch_16.1_Control_Motor_by_L293D.ino
     :linenos: 
     :language: c
     :lines: 42-54
